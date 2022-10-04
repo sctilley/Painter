@@ -15,7 +15,16 @@
 }
 
 img.mcard {
-    border-radius: 15px;
+    border-radius: 10px;
+    transition: transform .2s;
+    width: 15%;
+    height: auto;
+    
+}
+
+img.mcard:hover {
+    transform: scale(1.3);
+
 }
 
 .color-wheel {
@@ -31,5 +40,5 @@ img.mcard {
 }
 
 body {
-    background-image: url("/images/artifactBackground.png");    
+    background-image: url("artifactBackground.png");    
 }
