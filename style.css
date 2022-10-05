@@ -81,6 +81,7 @@ body {
     border-radius: 50%;
 }
 
-.msu {
-    font-size: 500%;
+.content {
+    margin-left: 50px;
+    margin-right: 50px;
 }
